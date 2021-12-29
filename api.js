@@ -27,7 +27,7 @@ function initAutocomplete() {
 }
 
 let weather = {
-    "apikey": "ed37dbadd55d7c1f7bdfc1e1717c632c",
+    "apikey": "API-KEY",
     getWeather: function(city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" 
         + city 
